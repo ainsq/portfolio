@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+*/
+
+html, body{
+    margin: 0px;
+    padding : 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#sidebar{
+    width: 100%;
+    height: 80px;
+    min-width: 1125px;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    -webkit-box-shadow:0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#mainpage{
+    width: 100%;
+    padding: 100px 0px 0px 0px;
+}
+
+
+.sidebar_menu{
+    width: 200px;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color:black;
+}
+.sidebar_menu_on{
+    width: 200px;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+}
+
+.sidemenu_div a{
+    color:black;
+    text-decoration: none;
+}
+.sidebar_menu:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+}
+
+.sidemenu_div{
+    width:200px;
+    height: 80px;
+    display: inline-block;
+}
+
+.sidebar_non_menu{
+    width: 200px;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.login_input{
+    width: 385px;
+    height: 40px;
+    padding: 0 0 0 15px;
+    margin:0px;
+    font-weight: 100;
+}
+.login_submit{
+    background-color:gray;
+    color:white;
+    width:405px;
+    height:40px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border : none;
+}
+
+#img_logo{
+    width: 80px;
+    height: 80px;
+}
+
+#box{
+    width: 400px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 5px;
+}
+
+#loginbox{
+    width:410px;
+    padding: 0px;
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+}
+#mainpage{
+    min-width: 1125px;
+}
+
+.bigsent{
+    font-size:2em;
+    font-weight: bold;
+}
+
+.board_idx{
+    padding: 5px;
+    text-align: center;
+}
+
+.board_headline{
+    width: 400px;
+    padding-top: 5px 0px 5px 5px;
+}
+
+.board_writer{
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+.board_date{
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+.top_td{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.blank_td{
+    width: 10px;
+}
+
+.blank_bottom{
+    width: 100%;
+    height: 1px;
+    margin-bottom:100px;
+}
+
+.board_box{
+    width: 715px;
+    margin: auto;
+}
+
+.board_headline a{
+    text-decoration: none;
+    color:black;
+}
+
+.board_headline a:hover{
+    color:gray;
+}
+
+.blackb{
+    width: 60px;
+    height: 30px;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color:white;
+    border: 1px solid black;
+    color:black;
+    float:right;
+}
+
+.blackb:hover{
+    color:gray;
+}
